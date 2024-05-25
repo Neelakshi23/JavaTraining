@@ -1,0 +1,23 @@
+package p1;
+
+import java.util.Scanner;
+
+public class DemoException 
+{
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		try
+		{
+			System.out.println("Enter a number..");
+			int n = sc.nextInt();
+			System.out.println("Number is : "+n);
+		}
+		catch(Exception ex){
+			
+		}
+		
+		sc.close();
+	}
+
+}

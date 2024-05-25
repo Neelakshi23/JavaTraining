@@ -1,0 +1,15 @@
+package p1;
+
+public abstract class ATest 
+{
+	public interface ATest1{
+		
+		public abstract void m3(int c);
+	}// Instance member InnerInterafce
+	
+	public static interface ATest2{
+		public abstract void m33(int c1);
+		
+	}
+
+}

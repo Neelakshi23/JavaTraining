@@ -1,0 +1,37 @@
+package p1;
+
+import java.util.Scanner;
+
+public class DemoException {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		try
+		{
+			System.out.println("Enter number 1 : ");
+			int a = Integer.parseInt(sc.nextLine());
+			System.out.println("Enter number 2 : ");
+			int b = Integer.parseInt(sc.nextLine());
+			Calculate c = new Calculate("msg");
+			c.compareTo(a, b);
+		}
+	catch(Calculate ob)
+		{
+		System.out.println(ob.toString());
+		}
+		
+		finally {
+			sc.close();
+		}
+		
+		/*
+		 * Scanner s = new Scanner(System.in); try(s;)//Java9 { try {
+		 * System.out.println("Entere the value1:"); int v1 =
+		 * Integer.parseInt(s.nextLine()); System.out.println("Entere the value2:"); int
+		 * v2 = Integer.parseInt(s.nextLine()); Calculate c = new Calculate("");
+		 * c.cal(v1, v2); }//end of try catch(NumberFormatException | Calculate
+		 * ob)//Java7 {
+		 * 
+		 * System.out.println(ob.toString()); } }//try with resource
+		 */	}
+}

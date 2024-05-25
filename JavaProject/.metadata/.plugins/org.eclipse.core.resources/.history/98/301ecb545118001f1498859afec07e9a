@@ -1,0 +1,28 @@
+package p1;
+
+public class DemoInnerInterface 
+{
+	public static void main(String[] args) {
+		
+		System.out.println("----Inner Interfaces in Class----");
+		SubClass.ITest1 ob = (int a)->{
+		System.out.println("The value of a is : "+a);
+		};
+		ob.m1(11);
+		SubClass.ITest2 ob1 = (int a1)->{
+			System.out.println("The value of a1 is : "+a1);
+		};
+		ob1.m11(23);
+        System.out.println("----Inner Interface in Interfaces Class------");
+		ITest.ITest3 ob2 = (int b)->{
+			System.out.println("The value of b is : "+b);
+		};
+		ob2.m2(23);
+		System.out.println("----Inner Interface in abstract Class----");
+		ATest.ATest1 = ob3 = (int c)->{
+			
+		};
+		
+	}
+
+}

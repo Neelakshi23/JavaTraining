@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="p1.EmpContact"/>
+    <fullyQualifiedTypeName name="p1.EmpSalary"/>
+    <fullyQualifiedTypeName name="p1.StuContact"/>
+    <fullyQualifiedTypeName name="p1.StuData"/>
+    <fullyQualifiedTypeName name="p1.DisplayBookDetails"/>
+    <fullyQualifiedTypeName name="p1.ReadBookDetails"/>
+    <fullyQualifiedTypeName name="p1.DisplayEmpDetails"/>
+    <fullyQualifiedTypeName name="p1.ReadEmpDetails"/>
+    <fullyQualifiedTypeName name="p1.EmpData"/>
+    <fullyQualifiedTypeName name="p1.DayScholar"/>
+    <fullyQualifiedTypeName name="p1.Hosteller"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="p1.ITest1"/>
+    <fullyQualifiedTypeName name="java.lang.invoke.MethodHandles.Lookup.ClassOption"/>
+    <fullyQualifiedTypeName name="p1.OuterClass.ClassA"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="p1.ITest"/>
+    <fullyQualifiedTypeName name="p1.ITest.InnerClass"/>
+    <fullyQualifiedTypeName name="p1.Access"/>
+    <fullyQualifiedTypeName name="p1.Access.SubClass2"/>
+    <fullyQualifiedTypeName name="p1.SubClass.ITest1"/>
+    <fullyQualifiedTypeName name="p1.SubClass.ITest2"/>
+    <fullyQualifiedTypeName name="p1.ATest.ATest1"/>
+    <fullyQualifiedTypeName name="p1.ATest.ATest2"/>
+</qualifiedTypeNameHistroy>

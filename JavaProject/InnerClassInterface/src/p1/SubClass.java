@@ -1,0 +1,18 @@
+package p1;
+
+public class SubClass 
+{
+	public interface ITest1
+	{
+		public abstract void m1(int a);
+	}//Instance member Inner  Interface 
+		public static interface ITest2
+		{
+			public abstract void m11(int a1) ;
+				
+			}//static member Inner Interface
+		}
+		
+	
+
+
