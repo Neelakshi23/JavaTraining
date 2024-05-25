@@ -1,0 +1,54 @@
+	import java.util.Scanner;
+	class Percentage
+	{
+		String percentage(float per)
+		{
+			if(per>=70 && per<100)
+			return "Destination";
+			else if(per<70 && per>=60)
+			return "First Class";
+			else if(per<60 && per>=50)
+			return "Second Class";
+			else if(per>=35 && per<50)
+			return "Just Pass";
+			else
+			return "Fail";
+	}
+	}
+
+	class DemoLoop2 
+	{
+		public static void main(String[] args) 
+		{
+			Scanner sc = new Scanner(System.in);
+			int i=1, totMarks =0;
+			
+			while(i<=6)
+			{
+				System.out.println("Enter your subject -"+i);
+				
+				int marks = sc.nextInt();
+				if(marks>0 && marks<35)
+				{
+                  System.out.println("Fail");
+				 break;
+				}
+				
+				else if(marks<0 || marks>100)
+				{
+				   System.out.println("Invalid Marks");
+				   continue;
+				}
+				
+				  totMarks = marks + totMarks;
+				  i++;
+			}
+			System.out.println("your total Marks is "+totMarks);
+			float per = (float)totMarks/6;
+			System.out.println("your Percentage is "+per);
+			Percentage p = new Percentage();
+			String res = p.percentage(per);
+			System.out.println("your Grade is "+res);
+			
+		}
+	}

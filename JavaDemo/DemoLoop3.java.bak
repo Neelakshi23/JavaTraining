@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+class DemoLoop3 
+{
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter n Value");
+		int n = sc.nextInt();
+		int i=0;
+		int sum =0;
+		while(i<n)
+		{
+        
+		 if(i%5!=0){
+		 sum =sum+i;
+         i++;
+		 }
+		  
+		}	
+		System.out.println("Sum is "+sum);
+
+
+		System.out.println("Enter n1 Value");
+		int n1 = sc.nextInt();
+		
+		int sum1 =0;
+		while(n1>0)
+		{
+			int k1=n1%10;//236//3
+			
+			if(sum1%2==0)
+			{
+				sum1 =sum1+k1;
+				n1=n1/10;
+				continue;
+			}
+
+             System.out.println("Sum1 is "+sum1);
+       
+		
+	}
+		}
+}

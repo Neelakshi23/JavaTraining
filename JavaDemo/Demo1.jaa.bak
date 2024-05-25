@@ -1,0 +1,12 @@
+class Demo1 
+{
+	String name;
+	void getName()
+	{
+		System.out.println("Your name is "+name);
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+}
